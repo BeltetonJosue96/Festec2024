@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">FESTEC 2024</string>
+    <string name="btn_ingresar">Ingresar</string>
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_registro">Crear Cuenta</string>
+
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_listar">Listar</string>
+
+    <string name="btn_registrar_nuevo_usuario">Crear Cuenta</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="correo">Correo electrónico</string>
+
+    <string name="titulo_escritorio">Registro de Visitantes</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="grado">Grado académico</string>
+    <string name="btn_agregar_visita">Agregar Visitante</string>
+    <string name="btn_mod_visita">Modificar Visitante</string>
+    <string name="modificar">Modificar datos</string>
+    <string name="eliminar">Eliminar</string>
+
+
+    <string name="txt_registrar">Registrar Visita</string>
 </resources>

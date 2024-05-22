@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Escritorio">
+
+    <Button
+        android:id="@+id/btn_agregar_visita"
+        android:layout_width="111dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/btn_agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSaludo2" />
+
+    <ImageView
+        android:id="@+id/imageSaludo2"
+        android:layout_width="285dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/contacto" />
+
+    <Button
+        android:id="@+id/btn_listar_visitantes"
+        android:layout_width="110dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#8BC34A"
+        android:text="@string/btn_listar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageSaludo2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/titulo_escritorio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="212dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_listar_visitantes"
+        app:srcCompat="@drawable/footer_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
